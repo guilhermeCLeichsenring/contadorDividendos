@@ -1,0 +1,35 @@
+* {
+    font: normal 16pt Arial;
+}
+
+body {
+    background-color: rgb(114, 16, 109);
+
+}
+
+h1 {
+    font-size: 30pt;
+    font-weight: bold;
+    color: white;
+
+    text-align: center;
+}
+
+#middle_block {
+    margin-inline: auto;
+
+    border: none;
+    border-radius: 10px;
+
+    background: white;
+    width: 50%;
+   
+    padding: 15px;
+
+    box-shadow: 1px 5px 5px ;
+}
+
+footer p{
+    color: white;
+    font-style: italic;
+}

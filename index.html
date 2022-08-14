@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular Soma de Dividendos</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>Calcular Soma de Dividendos</h1>
+        <h1>Dividendos Mensais</h1>
+    </header>
+    
+    <section id="middle_block">
+        <div>
+            <label for="valor">Coloque o Valor investido:</label><br>
+            <input type="number" name="valor" id="valor" value="">
+            <br>
+            <label for="porcent">Coloque a porcentagem de dividendos:</label>
+            <input type="number" name="porcent" id="porcent" value="1">%
+            <br>
+
+            <label for="time">Coloque o tempo de investimento:</label>  
+            <input type="number" name="time" id="time" value="">
+            <br>
+            <input type="radio" name="radTime" id="mes" checked>
+            <label for="mes">Mes(es)</label>
+            <input type="radio" name="radTime" id="anos">
+            <label for="ano">Ano(s)</label>
+            <br>
+            <br>
+            <input type="button" value="Calcular" onclick="calcu()">
+        </div>
+
+        <br>
+        <div id="res">Resposta!</div>
+       
+    </section>
+
+
+    
+</body>
+</html>
